@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewInventoryActivity"
+    android:orientation="vertical"
+    android:background="@drawable/deleteitembcg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banyaknya Item = "
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp"
+            />
+
+        <TextView
+            android:id="@+id/totalnoitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FC0703"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="3dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Harga = Rp."
+            android:textColor="#1976D2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            />
+
+        <TextView
+            android:id="@+id/totalsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FC0703"
+            android:text="0"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="3dp"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

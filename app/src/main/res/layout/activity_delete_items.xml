@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/deleteitembcg"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus Item"
+        android:textColor="#1976D2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/mahoda"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#D3D3D3"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item :"
+            android:textColor="#1976D2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/editTextItemToDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:hint="Masukan Item"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonscandelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFF00"
+                android:text="Scan Bar/QR Code"
+                android:textStyle="italic"
+                android:textColor="#00008B"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/deleteItemToTheDatabasebtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hapus Item"
+                android:background="#FF0000"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Added TextView for Code Number -->
+        <TextView
+            android:id="@+id/barcodedelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginBottom="-171dp"
+            android:ems="10"
+            android:hint="Code Number"
+            android:inputType="textPersonName"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff" />
+
+    </LinearLayout>
+
+</LinearLayout>
