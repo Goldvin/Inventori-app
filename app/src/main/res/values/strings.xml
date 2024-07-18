@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">augScan</string>
+=======
+    <string name="app_name">Inventory</string>
+>>>>>>> origin/master
 </resources>

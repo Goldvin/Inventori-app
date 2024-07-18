@@ -26,7 +26,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-106dp"
         android:fontFamily="@font/mahoda"
+<<<<<<< HEAD
         android:text="Yaventory"
+=======
+        android:text="Inventory"
+>>>>>>> origin/master
         android:textColor="#FFF"
         android:textSize="50dp"
         android:textStyle="bold" />
