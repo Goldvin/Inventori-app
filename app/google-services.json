@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "580300521197",
+    "firebase_url": "https://inventory-a9596-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "inventory-a9596",
+    "storage_bucket": "inventory-a9596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580300521197:android:4e9dff573b24ced5bb96e4",
+        "android_client_info": {
+          "package_name": "com.example.admin.augscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1WfkOmTphTtj1sYZRfPZ5mA40AHS9f88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
